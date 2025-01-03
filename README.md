@@ -2,7 +2,7 @@
 # PreserveClone
 Module made for cloning instances while preserving there old instance in Roblox
 
-When you clone an instance in Roblox, you lose the original instance's path information. This module fixes that by setting an attribute on the instance and all its descendants, so you can trace back to the original after cloning
+When you clone an instance in Roblox, you lose the original instances path information. This module fixes that by setting an attribute on the instance and all its descendants, so you can trace back to the original after cloning
 
 I had trouble figuring out how to keep track of original paths when cloning instances a long time ago. This module is the solution I came up with, and hopefully someone will find this helpful
 
@@ -29,4 +29,4 @@ end
 local NewHum1 = OldToNew[Hum1]
 local NewHum2 = OldToNew[Hum2]
 ```
-There is quite a few other use cases for this aswell, not just the one listed here.
+There is quite a few other use cases for this aswell, not just the one listed here
