@@ -30,3 +30,4 @@ local NewHum1 = OldToNew[Hum1]
 local NewHum2 = OldToNew[Hum2]
 ```
 There is quite a few other use cases for this aswell, not just the one listed here
+Another good thing is that Object-Based Properties will be set as their cloned instance rather than their old instance!
